@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>King Furniture LTD</title>
+    <style>
+        body {
+            background-image: url('images/cover.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .payment-section {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 600px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            height: 500px;
+        }
+        .payment-section h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .payment-section p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .payment-icons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .payment-icons div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .payment-icons img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .payment-icons button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #333;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .payment-icons button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header class="header-footer-bg">
+        <div class="logo">
+            <img src="images/King.png" alt="">
+            <h1 id="lg">King Furniture</h1>    
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="payment-section">
+        <h2>Payment Options</h2>
+        <p>We accept various payment methods for your convenience</p>
+        <div class="payment-icons">
+            <div class="MTN">
+                <img src="images/mtn.png" alt="MTN">
+                <a href="Products.html"><button>Pay Now</button></a>
+            </div>
+            <div class="Airtel">
+                <img src="images/airtel.png" alt="Airtel">
+                <a href="Products.html"><button>Pay Now</button></a>
+            </div>
+            <div class="Visa">
+                <img src="images/visa.png" alt="Visa">
+                <a href="Products.html"><button>Pay Now</button></a>
+            </div>
+            <div class="MasterCard">
+                <img src="images/MASTER-CARD.jpg" alt="MasterCard">
+                <a href="Products.html"><button>Pay Now</button></a>
+            </div>
+        </div>
+    </section>
+    <footer class="header-footer-bg">
+        <p>&copy; 2023 King Furniture LTD . All rights reserved.</p>
+        <div class="social-media-icons">
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="images/Youtube-icon.png" alt="">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="images/instagram-icon.png" alt="">
+            </a>
+            <a href="linkedin.com/in/henri-kevin-jordan-uwizeyimana-595538184" target="_blank">
+                <img src="images/linkedin-icon.png" alt="">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
